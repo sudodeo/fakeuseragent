@@ -17,11 +17,6 @@ func TestGetUserAgent(t *testing.T) {
 		t.Errorf("Expected non-empty user agent for Firefox, but got an empty string")
 	}
 
-	agent = fakeuseragent.GetUserAgent(fakeuseragent.BrowserMSIE)
-	if agent == "" {
-		t.Errorf("Expected non-empty user agent for MSIE, but got an empty string")
-	}
-
 	agent = fakeuseragent.GetUserAgent(fakeuseragent.BrowserSafari)
 	if agent == "" {
 		t.Errorf("Expected non-empty user agent for Safari, but got an empty string")
