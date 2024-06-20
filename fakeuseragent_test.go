@@ -3,7 +3,7 @@ package fakeuseragent_test
 import (
 	"testing"
 
-	"github.com/iunary/fakeuseragent"
+	"github.com/sudodeo/fakeuseragent"
 )
 
 func TestGetUserAgent(t *testing.T) {
