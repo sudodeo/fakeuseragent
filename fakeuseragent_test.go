@@ -21,11 +21,6 @@ func TestGetUserAgent(t *testing.T) {
 	if agent == "" {
 		t.Errorf("Expected non-empty user agent for Safari, but got an empty string")
 	}
-
-	agent = fakeuseragent.GetUserAgent(fakeuseragent.BrowserOpera)
-	if agent == "" {
-		t.Errorf("Expected non-empty user agent for Opera, but got an empty string")
-	}
 }
 
 func TestRandomUserAgent(t *testing.T) {

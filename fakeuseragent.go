@@ -12,7 +12,6 @@ const (
 	BrowserEdge    Browser = "edge"
 	BrowserFirefox Browser = "firefox"
 	BrowserSafari  Browser = "safari"
-	BrowserOpera   Browser = "opera"
 )
 
 var (
@@ -32,10 +31,6 @@ var (
 		BrowserSafari: {
 			"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8",
 			"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7",
-		},
-		BrowserOpera: {
-			"Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.18",
-			"Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14",
 		},
 	}
 
