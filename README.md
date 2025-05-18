@@ -7,7 +7,7 @@
 To use the package, you need to have Go installed and set up on your machine. Then, you can install the package using the `go get` command:
 
 ```bash
-go get github.com/iunary/fakeuseragent
+go get github.com/sudodeo/fakeuseragent
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/iunary/fakeuseragent"
+	"github.com/sudodeo/fakeuseragent"
 )
 
 func main() {
@@ -43,10 +43,8 @@ The package currently supports the following browsers:
 
 - Chrome
 - Edge
-- MSIE (Internet Explorer)
 - Firefox
 - Safari
-- Opera
 
 Each browser has a predefined set of fake user agent strings that you can retrieve using the provided functions.
 
